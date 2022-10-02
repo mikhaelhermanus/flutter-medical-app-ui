@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medical_app/pages/Appointment.dart';
 import 'package:medical_app/pages/IndexHome.dart';
+import 'package:medical_app/pages/chatScreen.dart';
 import 'package:medical_app/pages/loginScreen.dart';
 import 'package:medical_app/pages/registerScreen.dart';
 
@@ -23,10 +24,7 @@ class _HomeState extends State<Home> {
   List<Widget> pages = [
     const IndexHome(),
     const AppointmentScreen(),
-    const Text(
-      'Chat Screen works',
-      style: TextStyle(fontSize: 30),
-    ),
+    const ChatScreen(),
     const LoginScreen()
     // const RegisterScreen()
   ];
